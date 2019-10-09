@@ -9,13 +9,13 @@
 <!-- シーンの追加とデバックUIを非表示 -->
 <a-scene embedded arjs="debugUIEnabled:false;">
 
+  <a-assets>
+    <a-asset-item id="audi" src="audi.dae"></a-asset-item>
+  </a-assets>
 
   <!-- ③ 作成したマーカーでのソース -->
   <a-marker preset='custom' type='pattern' url='pattern-pattern.patt'>
-    <a-sphere scale=".25 .25 .25" position="0 .5 0" color="#f00">
-      <a-animation attribute="position" to="0 1 0" direction="alternate" dur="2000" repeat="indefinite">
-      </a-animation>
-    </a-sphere>
+    <a-entity collada-model="#audi"></a-entity>
   </a-marker>
 
 
