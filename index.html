@@ -9,11 +9,13 @@
 <!-- シーンの追加とデバックUIを非表示 -->
 <a-scene embedded arjs="debugUIEnabled:false;">
 
+  <a-assets>
+    <a-asset-item id="ship" src="ship.dae"></a-asset-item>
+  </a-assets>
+
   <!-- ③ 作成したマーカーでのソース -->
   <a-marker preset='custom' type='pattern' url='pattern-pattern.patt'>
-     <a-entity 
-            obj-model="obj: url(bmw.obj); mtl: url(bmw.mtl)">
-        </a-entity>
+    <a-entity collada-model="#ship"></a-entity>
   </a-marker>
 
 
