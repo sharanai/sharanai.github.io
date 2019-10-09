@@ -1,0 +1,56 @@
+newmtl Model001_Material001
+map_Kd interior_lod0.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material002
+map_Kd wheel.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material003
+map_Kd gray.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material004
+map_Kd black.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material005
+map_Kd black.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material006
+map_Kd black.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material007
+map_Kd black.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material008
+map_Kd lights.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material009
+map_Kd black.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material010
+map_Kd lights.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material011
+map_Kd glass.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material012
+map_Kd leather.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material013
+map_Kd nodamage.png
+map_bump bumpmap_flat.png
+
+newmtl Model001_Material014
+map_Kd color.png
+map_bump bumpmap_flat.png
+
