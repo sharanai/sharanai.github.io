@@ -7,15 +7,15 @@
 <body style='margin: 0; overflow: hidden;'>
 
 <!-- シーンの追加とデバックUIを非表示 -->
-<a-scene embedded arjs="debugUIEnabled:false;">
+<a-scene embedded vr-mode-ui="enabled: false" arjs="debugUIEnabled:false;">
 
   <a-assets>
-    <a-asset-item id="ship" src="ship.dae"></a-asset-item>
+    <a-asset-item id="scene" src="scene.gltf"></a-asset-item>
   </a-assets>
 
   <!-- ③ 作成したマーカーでのソース -->
   <a-marker preset='custom' type='pattern' url='pattern-pattern.patt'>
-    <a-entity collada-model="#ship" scale="2 2 2"></a-entity>
+    <a-entity gltf-model="#scene"></a-entity>
   </a-marker>
 
 
