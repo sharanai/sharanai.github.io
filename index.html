@@ -9,13 +9,11 @@
 <!-- シーンの追加とデバックUIを非表示 -->
 <a-scene embedded arjs="debugUIEnabled:false;">
 
-  <a-assets>
-    <a-asset-item id="bmw" src="bmw.dae"></a-asset-item>
-  </a-assets>
-
   <!-- ③ 作成したマーカーでのソース -->
   <a-marker preset='custom' type='pattern' url='pattern-pattern.patt'>
-    <a-entity collada-model="#bmw" scale="2 2 2"></a-entity>
+     <a-entity 
+            obj-model="obj: url(bmw.obj); mtl: url(bmw.mtl)">
+        </a-entity>
   </a-marker>
 
 
